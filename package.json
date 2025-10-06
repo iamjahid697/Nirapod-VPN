@@ -1,0 +1,20 @@
+{
+  "name": "nirapod-vpn",
+  "version": "1.0.0",
+  "description": "Tailwind css projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [
+    "vpn projec"
+  ],
+  "author": "Md Jahidul Islam",
+  "license": "ISC",
+  "type": "",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.14",
+    "tailwindcss": "^4.1.14"
+  }
+}
