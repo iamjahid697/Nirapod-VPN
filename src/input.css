@@ -14,3 +14,26 @@
         @apply max-w-[1440px] container mx-auto px-4 py-16;
     }
 }
+.custom-arrow {
+    transition: all 0.3s ease;
+}
+
+/* On hover: red border and red background */
+.custom-arrow:hover {
+    border-color: #F53855;       
+    background-color: #F53855;   
+}
+
+.custom-arrow img {
+    transition: all 0.3s ease;
+}
+
+/* the arrow color on hover  */
+.custom-arrow:hover img {
+    filter: brightness(0) invert(1); /* white arrow on red background */
+}
+/* Move dots a bit lower */
+.swiper-pagination {
+    margin-top: 20px; /* increase value to move dots further down */
+}
+
