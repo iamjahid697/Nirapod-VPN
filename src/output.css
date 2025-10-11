@@ -847,8 +847,8 @@
   transition: all 0.3s ease;
 }
 .custom-arrow:hover {
-  border-color: #F53855;
-  background-color: #F53855;
+  border-color: #F53855 !important;
+  background-color: #F53855 !important;
 }
 .custom-arrow img {
   transition: all 0.3s ease;
